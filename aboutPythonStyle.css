@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    background-color: #245076;
+    width: 970px;
+    height: 700px;
+}
+
+#header{
+    display: flex;
+}
+
+#header img{
+    margin: 10px;
+    height: 90px;
+    width: 300px;
+}
+
+#header-content{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#header-content p .white{
+    margin-left: 450px; 
+    color: white;
+}
+
+
+#header-content p a{
+    color:  rgb(219, 190, 103);
+}
+
+#search-box{
+    border-radius: 10px;
+    background-color: #444444;
+    margin-top: 8px;
+    margin-left: 420px;
+    height: 50px;
+    width: 220px;
+
+}
+
+#search-box input{
+    text-align: center;
+    height: 27px;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2e466e), color-stop(1, #415989));
+	background:-moz-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-webkit-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-o-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-ms-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
+	background-color:#245076;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	padding:8px 16px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    margin-left: 5px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #415989), color-stop(1, #2e466e));
+	background:-moz-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-webkit-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-o-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-ms-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#nav-bar{
+    background-color: #457DAD;
+    box-shadow: 2px 3px #333232;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 60px;
+    height: 50px;
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px 
+
+}
+
+#nav-bar a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#main-content{
+    display: flex;
+}
+
+#side-menu{
+    list-style-type: none;
+    margin-top:30px;
+    margin-left: 80px;
+}
+
+.menu-item {
+    text-align: center;
+
+    margin-top: 5px;
+
+    margin-right: 40px; 
+}
+
+.link-arrow{
+    color: rgb(219, 190, 103);
+    font-size: 10px;
+}
+
+.menu-item a{
+    font-size: 10px;
+    color: white;
+}
+
+#main-text{
+left: 50px;
+}
+
+#main-text p{
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 12px; 
+}
+
+.main-text-list{
+    list-style-type: none;
+    margin-top:5px;
+    text-align: center;
+    color: white;
+
+}
+
+.main-text-items{
+    margin-bottom: 6px;
+    color: rgb(219, 190, 103);
+}
+
+#sub-content{
+    justify-content: space-between;
+
+    margin-top: 20px;
+    width: inherit;
+    height: 215px;
+    background-color: white;
+    display: flex;
+}
+
+.sub-content-section{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.seperator{
+    height: 5px;
+    width: 405px;
+    background-color: rgb(95, 131, 161);
+}
+
+.sub-title{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.sub-pargraph{
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.sub-content-section ul{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.sub-content-section ul li{
+    margin-top: 8px;
+    list-style-type: square !important;
+}
+
+
+.blue-item{
+    color: rgb(87, 144, 194);
+}
+
+#footer{
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+#footer a{
+    margin-left: 90px;
+    color: rgb(152, 191, 236);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.copyright{
+    margin-top: 20px;
+    margin-left: 380px;
+    color: rgb(152, 191, 236);
+    font-size: 11px;
+}
+        
+        
